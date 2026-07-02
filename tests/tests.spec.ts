@@ -8,7 +8,7 @@ function getRandomNumber() {
 // ============================================================================================================================
 // GET products by id, by slug, using pagination, related by id, and related by slug
 // ============================================================================================================================
-test.describe("GET products", { tag: [TAG.getProducts] }, () => {
+test.describe("GET /products", { tag: [TAG.getProducts] }, () => {
   let createdProduct;
   test.beforeEach(async ({ request }) => {
     // !ARRANGE
